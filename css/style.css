@@ -73,10 +73,13 @@ header img {
     height: 65px;
  }
  
+ .equal {
+    height: 65px;
+ }
 
 .item2 {
     background-color: orange;
-    width: 100%;
+    width: calc(100%/2 + 50px);
     border-radius: 5px;
 }
 
@@ -93,16 +96,21 @@ header img {
 .op-item {
     background-color: #bbbbbb;
     width: 100%;
-    height: 43px;
+    height: 55px;
     margin-bottom: 3.5px;
     padding: 10px;
     border-radius: 5px;
 }
 
-
-.op-item:nth-child(1) {
+.canc {
     background-color: orange;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 3.5px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 
 .item:hover {
     opacity: 0.8;
